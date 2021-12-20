@@ -5710,6 +5710,7 @@ a#ucSepetim_btnSepetiTemizle {
 }
 
 #ticimaxCopyright {
+	display: none;
 	float: left;
 	width: 100%;
 }
@@ -8956,6 +8957,7 @@ ul.breadcrumb {
 		vertical-align: top;
 	}
 	#ticimaxCopyright {
+		display: none;
 		margin-top: 5px !important;
 		font-size: 11px;
 	}
