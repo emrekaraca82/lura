@@ -8948,11 +8948,13 @@ ul.breadcrumb {
 		vertical-align: top;
 	}
 	#divTicimaxCopyrightContent {
+		display: none;
 		float: left;
 		width: 100%;
 		margin-bottom: 50px;
 	}
 	#divTicimaxCopyrightContent img {
+		display: none;
 		display: inline-block;
 		vertical-align: top;
 	}

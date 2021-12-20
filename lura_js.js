@@ -15,7 +15,19 @@ var urunDetayZoomCozunurluk = 768;
 var windowidth = document.documentElement.clientWidth;
 /** @type {boolean} */
 var urunDetay_varyasyonSecili = true;
+
 $(document).ready(function() {
+
+  // Footer end area
+  $('#divTicimaxCopyrightContent').html(
+    '<div id="divTicimaxCopyrightContent" align="center">' +
+      '<a class="mobilTicimaxLogo" href="https://ferisoft.com/" title="Ferisoft" target="_blank"></a>' +
+      '<p id="ticimaxCopyright" class="ticimax_link_main" style="color: #000; margin: 15px 0; display: block !important;">' +
+          'Bu site Ferisoft<sup>®</sup> Gelişmiş <a href="https://ferisoft.com/" style="color: #0066CC;" target="_blank" class="ticimax_link" title="Ferisoft"> E-Ticaret </a> sistemleri ile hazırlanmıştır.' +
+      '</p>' +
+    '</div>'
+  );
+
   if ($("#divSayfalamaUst").length > 0) {
     KategoriIslemleri();
   } else {
