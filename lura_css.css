@@ -793,6 +793,7 @@ textarea {
 .iletisimContent {
 	float: left;
 	width: 100%;
+	padding: 0;
 }
 
 .iletisimContent .row {
@@ -801,16 +802,17 @@ textarea {
 
 .iletisimContent .AdBan {
 	float: left;
-	width: 50%;
+	width: 100%;
 }
 
 .iletisimContent .iletisimLeft {
-	float: left;
-	padding: 0;
-	margin: 0 0 40px;
-	width: 100%;
 	display: block;
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
 }
+
 
 .iletisimContent .categoryTitle {
 	float: left;
@@ -825,7 +827,8 @@ textarea {
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 80px;
-	text-align: left;
+	text-align: center;
+	color: #000;
 }
 
 .iletisimContent .categoryTitle:after {
@@ -865,7 +868,6 @@ textarea {
 	width: 35px;
 	text-align: left;
 	font-weight: 300;
-	float: left;
 }
 
 .iletisimContent .iletisimLeft .span.iletisimLeftFirmaAdi .Right {
@@ -3664,7 +3666,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 		background: #d4dade;
 		content: '\f00c';
 		font-family: 'FontAwesome';
-		color: #f04873;
+		color: #000;
 		font-size: 8px;
 		font-weight: normal;
 	}
@@ -3673,7 +3675,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 		background: #d4dade;
 		content: '\f00c';
 		font-family: 'FontAwesome';
-		color: #f04873;
+		color: #000;
 		font-size: 8px;
 		font-weight: normal;
 	}
@@ -3922,7 +3924,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 	background: #d4dade;
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #f04873;
+	color: #000;
 	font-size: 8px;
 	font-weight: 600;
 }
@@ -3932,7 +3934,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 	background: #d4dade;
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #f04873;
+	color: #000;
 	font-size: 8px;
 	font-weight: 600;
 }
@@ -5673,6 +5675,17 @@ a#ucSepetim_btnSepetiTemizle {
 	font-family: 'Poppins', sans-serif !important;
 }
 
+#mainHolder_divBlocks #divCenterBlock h1 {
+	text-align: center;
+}
+
+#mainHolder_divBlocks #divCenterBlock big {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
 #mainHolder_UrunDetay_imgCookie {
 	display: none !important;
 }
@@ -5848,27 +5861,27 @@ body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li a.select
 #divUrunEkSecenek .eksecenekLine.kutuluvaryasyon .right_line .size_box.selected,
 .urunTab>ul>li.active>a,
 #divUrunEkSecenek .eksecenekLine.resimlivaryasyon .right_line .size_box.selected:after {
-	border-color: #f04873;
+	border-color: #000;
 }
 
 .tooltip.top .tooltip-arrow,
 .tooltip.top-left .tooltip-arrow,
 .tooltip.top-right .tooltip-arrow {
-	border-top-color: #f04873;
+	border-top-color: #000;
 }
 
 .tooltip.right .tooltip-arrow {
-	border-right-color: #f04873;
+	border-right-color: #000;
 }
 
 .tooltip.left .tooltip-arrow {
-	border-left-color: #f04873;
+	border-left-color: #000;
 }
 
 .tooltip.bottom .tooltip-arrow,
 .tooltip.bottom-left .tooltip-arrow,
 .tooltip.bottom-right .tooltip-arrow {
-	border-bottom-color: #f04873;
+	border-bottom-color: #000;
 }
 
 .baglanButton {
@@ -5917,7 +5930,7 @@ body ul.breadcrumb li:nth-last-of-type(1) *,
 .GuvenList ul li .gimg,
 .navigation .navUl>li>ul>li>ul>li.active>a,
 .navigation .navUl>li>ul>li>ul>li.active>.Mright {
-	color: #f04873;
+	color: #000;
 }
 
 
@@ -5980,7 +5993,7 @@ body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li>a:hover,
 .navigation .navUl>li:hover>a,
 .navigation .navUl>li .Flexscroll>ul>li:hover>a,
 .navigation .navUl>li ul li a:hover {
-	color: #f04873;
+	color: #000;
 }
 
 
@@ -5993,7 +6006,7 @@ body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li>a:hover,
 .CartProduct .headerCartBtn:hover,
 #divUrunEkSecenek .eksecenekLine.kutuluvaryasyon .right_line .size_box:hover,
 .ProductIcon>div:hover .box1 {
-	border-color: #f04873;
+	border-color: #000;
 }
 
 
