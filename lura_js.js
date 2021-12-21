@@ -43,7 +43,8 @@ $(document).ready(function() {
   var tttttttest = "<div id='divTopProductSearch' style='margin-top: 2rem'>" + $('#divTopProductSearch').html() + "</div>";
   $('.headerContent').prepend(tttttttest);
 
-
+  
+  $('.arabtn').remove();
   $('#btnKelimeAra').hide();
   // $('.arabtn').setAttribute("id", "search_btn_id");
   // $('#divTopProductSearch').addClass('searchContent');
@@ -120,7 +121,7 @@ function GlobalIslemler() {
     if (windowidth > 767) {
       $(".htop").insertBefore(".headerContent");
     }
-    $(".mycart").after('<div class="arabtn" ><i class="fal fa-search"></i></div>');
+    $(".mycart").after('');
     if (windowidth < 768) {
       $(".arabtn").insertBefore("#logo");
     }
