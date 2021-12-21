@@ -5335,9 +5335,98 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	text-transform: capitalize;
 }
 
+
 .search {
-	display: block;
+	background-color: #fff;
+	position: relative;
+	width: 100%;
+	max-width: 720px;
+	height: 60px;
+	border-radius: 120px;
 	margin: 0 auto;
+}
+
+.search-icon, .go-icon {
+	position: absolute;
+	top: 0;
+	height: 60px;
+	width: 86px;
+	line-height: 61px;
+	text-align: center;
+}
+
+.search-icon {
+	z-index: 10;
+	left: 0;
+	pointer-events: none;
+	font-size: 1.22em;
+	will-change: transform;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform-origin: center center;
+	-webkit-transform-origin: center center;
+	-moz-transform-origin: center center;
+	-o-transform-origin: center center;
+	transition: transform 400ms 220ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-webkit-transition: transform 400ms 220ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-moz-transition: transform 400ms 220ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-o-transition: transform 400ms 220ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+}
+
+
+.search-box {
+	position: relative;
+	width: 100%;
+	max-width: 360px;
+	height: 60px;
+	border-radius: 120px;
+	margin: 0 auto;
+}
+
+
+
+.si-rotate {
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+}
+.go-icon {
+	right: 0;
+	pointer-events: none;
+	font-size: 1.38em;
+	will-change: opacity;
+	cursor: default;
+	opacity: 0;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transition: opacity 190ms ease-out, transform 260ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-webkit-transition: opacity 190ms ease-out, transform 260ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-moz-transition: opacity 190ms ease-out, transform 260ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-o-transition: opacity 190ms ease-out, transform 260ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+}
+.go-in {
+	opacity: 1;
+	pointer-events: all;
+	cursor: pointer;
+	transform: rotate(0);
+	-webkit-transform: rotate(0);
+	-moz-transform: rotate(0);
+	-o-transform: rotate(0);
+	transition: opacity 190ms ease-out, transform 260ms 20ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-webkit-transition: opacity 190ms ease-out, transform 260ms 20ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-moz-transition: opacity 190ms ease-out, transform 260ms 20ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-o-transition: opacity 190ms ease-out, transform 260ms 20ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+}
+.search-border {
+	display: block;
+	width: 100%;
+	max-width: 360px;
+	height: 60px;
 }
 
 .ButtonMic {
@@ -5355,7 +5444,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	height: 40px;
 }
 
-#txtbxArama {
+/* #txtbxArama {
 	float: left;
 	width: 100%;
 	height: 35px;
@@ -5394,7 +5483,31 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 
 #txtbxArama:focus {
 	color: #000000;
+} */
+
+#txtbxArama {
+	font-family: 'Montserrat Alternates', sans-serif;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 120px;
+	border: none;
+	background: rgb(255, 255, 255);
+	padding: 0 68px 0 68px;
+	color: #000;
+	font-size: 1.32em;
+	font-weight: 400;
+	letter-spacing: -0.015em;
+	outline: none;
 }
+#txtbxArama::-webkit-input-placeholder {color: #FFFFFF;}
+#txtbxArama::-moz-placeholder {color: #FFFFFF;}
+#txtbxArama:-ms-input-placeholder {color: #FFFFFF;}
+#txtbxArama:-moz-placeholder {color: #FFFFFF;}
+#txtbxArama::-moz-selection {color: #FFFFFF; background: rgba(0,0,0,0.25);}
+#txtbxArama::selection {color: #FFFFFF; background: rgba(0,0,0,0.25);}
 
 #btnKelimeAra {
 	width: 55px;
@@ -7720,7 +7833,6 @@ body.transform #formGlobal {
 
 /* ------------------------------------Container--------------------------------------------*/
 
-.search,
 .headerContent,
 body ul.breadcrumb,
 .userLoginContent,

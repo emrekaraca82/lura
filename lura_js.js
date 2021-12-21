@@ -18,6 +18,49 @@ var urunDetay_varyasyonSecili = true;
 
 $(document).ready(function() {
 
+
+  $('#divArama').html(
+    '<div class="search-box">' +
+      '<div class="search-icon">' +
+
+      '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">' +
+        '<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>' +
+      '</svg>' +
+
+      '</div>' +
+      '<input name="ct100$txtbxArama" type="text" id="txtbxArama" tabindex="-1" onkeypress="return ProductSeachTopOnKeyPress(event)" inputmode="search" placeholder="Ara..." autocomplete="off">' +
+      '<input type="button" name="" onclick="ProductSearchTop()" id="btnKelimeAra" class="rsbButton" value="Ara" title="Ara">' +
+      '<svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;" xml:space="preserve">' +
+        '<path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"/>' +
+        '<path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"/>' +
+      '</svg>' +
+      '<div class="go-icon"><i class="fa fa-arrow-right"></i></div>' +
+    '</div>'
+  );
+
+  $('#btnKelimeAra').hide();
+
+  $("#txtbxArama").focus(function() {
+    $(".search-box").addClass("border-searching");
+    $(".search-icon").addClass("si-rotate");
+  });
+  $("#txtbxArama").blur(function() {
+    $(".search-box").removeClass("border-searching");
+    $(".search-icon").removeClass("si-rotate");
+  });
+  $("#txtbxArama").keyup(function() {
+      if($(this).val().length > 0) {
+        $(".go-icon").addClass("go-in");
+      }
+      else {
+        $(".go-icon").removeClass("go-in");
+      }
+  });
+  $(".go-icon").click(function(){
+    ProductSearchTop();
+  });
+
+
   // Footer end area
   // $('#divTicimaxCopyrightContent').html(
   //   '<div id="divTicimaxCopyrightContent" align="center">' +
