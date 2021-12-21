@@ -38,7 +38,16 @@ $(document).ready(function() {
     '</div>'
   );
 
+  // console.log("divTopProductSearch html: " + $('#divTopProductSearch').html());
+  //$('#divTopProductSearch').text()
+  var tttttttest = "<div id='divTopProductSearch' style='margin-top: 2rem'>" + $('#divTopProductSearch').html() + "</div>";
+  $('.headerContent').prepend(tttttttest);
+
+
   $('#btnKelimeAra').hide();
+  // $('.arabtn').setAttribute("id", "search_btn_id");
+  // $('#divTopProductSearch').addClass('searchContent');
+  // $('#divTopProductSearch').hide();
 
   $("#txtbxArama").focus(function() {
     $(".search-box").addClass("border-searching");
@@ -1023,5 +1032,4 @@ function mobilFooter() {
     /** @type {boolean} */
     mobFtrScrollCtrl = true;
   }
-}
-;
+};
