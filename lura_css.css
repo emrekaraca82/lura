@@ -25,6 +25,11 @@
 	box-sizing: border-box;
 }
 
+::placeholder {
+	color: #D4DADE;
+	opacity: 0.8; /* Firefox */
+}
+
 
 /*Fadein Css*/
 
@@ -736,7 +741,7 @@ textarea {
 }
 
 .Magazalar .magazaSelect {
-	background: #d4dade;
+	background: #ffffff;
 	border: 1px solid #eeeff0;
 	color: #222222;
 	font-size: 13px;
@@ -750,7 +755,7 @@ textarea {
 }
 
 .Magazalar #searchStore input {
-	background: #d4dade;
+	background: #ffffff;
 	border: 1px solid #eeeff0;
 	color: #222222;
 	font-size: 13px;
@@ -2297,7 +2302,7 @@ body #divStokYok:before {
 	font-size: 13px;
 	font-weight: normal;
 	padding: 0 10px;
-	background: #d4dade;
+	background: #ffffff;
 	border-radius: 0;
 }
 
@@ -2978,7 +2983,7 @@ body #divStokYok:before {
 	margin: 0;
 	padding: 10px;
 	width: 100% !important;
-	background: #d4dade;
+	background: #ffffff;
 }
 
 .yorumlarItem {
@@ -3101,7 +3106,7 @@ body #divStokYok:before {
 	width: 100%;
 	padding: 0 20px 20px;
 	margin: 50px 0 0;
-	background: #d4dade;
+	background: #ffffff;
 	text-align: center;
 }
 
@@ -3655,7 +3660,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 		height: 12px;
 		border: 1px solid #cccccc !important;
 		border-radius: 0;
-		background: #d4dade;
+		background: #ffffff;
 		display: inline-block !important;
 		margin-top: 0;
 		text-align: center;
@@ -3663,7 +3668,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 	}
 	body #divSayfalamaUst .category-vertical-filters .vertical-filter-panel .list-group-item:hover:before {
 		border-color: #cccccc !important;
-		background: #d4dade;
+		background: #ffffff;
 		content: '\f00c';
 		font-family: 'FontAwesome';
 		color: #000;
@@ -3672,7 +3677,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 	}
 	body #divSayfalamaUst .category-vertical-filters .vertical-filter-panel .list-group-item.selected:before {
 		border-color: #cccccc !important;
-		background: #d4dade;
+		background: #ffffff;
 		content: '\f00c';
 		font-family: 'FontAwesome';
 		color: #000;
@@ -3720,7 +3725,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 		margin-top: 0;
 	}
 	body #divSayfalamaUst .category-vertical-filters.top-filters .slider-range .ui-slider-handle {
-		background: #d4dade;
+		background: #ffffff;
 		border-radius: 100%;
 		width: 18px;
 		height: 18px;
@@ -3912,7 +3917,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 	height: 12px;
 	border: 1px solid #cccccc !important;
 	border-radius: 0;
-	background: #d4dade;
+	background: #ffffff;
 	display: inline-block !important;
 	margin-top: 0;
 	text-align: center;
@@ -3921,7 +3926,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 
 .leftBlock .category-vertical-filters .vertical-filter-panel .list-group-item.selected:before {
 	border-color: #cccccc !important;
-	background: #d4dade;
+	background: #ffffff;
 	content: '\f00c';
 	font-family: 'FontAwesome';
 	color: #000;
@@ -3931,7 +3936,7 @@ body #divSayfalamaUst .filterDeleteContent .appliedFilter.FiltrelemeKaldir a spa
 
 .leftBlock .category-vertical-filters .vertical-filter-panel .list-group-item:hover:before {
 	border-color: #cccccc !important;
-	background: #d4dade;
+	background: #ffffff;
 	content: '\f00c';
 	font-family: 'FontAwesome';
 	color: #000;
@@ -4041,7 +4046,7 @@ body .leftBlock .FiyatTextBox input {
 .pageNumberContent a,
 .pageBorder a {
 	border: 1px solid #e1e1e1;
-	background: #d4dade;
+	background: #ffffff;
 	color: #000000;
 	float: left;
 	position: relative;
@@ -4430,11 +4435,11 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 /****************************************SLiDER VE BLOK SLDieR*********************************/
 
 /* .design-bg-1 {
-	background-color: #d4dade!important;
+	background-color: #ffffff!important;
 } */
 
 #mainHolder_divDesign section {
-	background-color: #d4dade!important;
+	background-color: #ffffff!important;
 }
 
 #mainHolder_divDesign .JKatAdi.categoryTitle,
@@ -4463,7 +4468,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	left: 0;
 	right: 0;
 	top: 50%;
-	background: #d4dade;
+	background: #ffffff;
 	z-index: 0;
 }
 
@@ -4472,7 +4477,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	display: inline-block;
 	vertical-align: top;
 	padding: 0 5vw !important;
-	background: #d4dade;
+	background: #ffffff;
 	line-height: 45px;
 	color: #000000;
 	font-size: 30px;
@@ -4731,7 +4736,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	position: static;
 	float: left;
 	width: 100%;
-	background: #d4dade;
+	background: #ffffff;
 	margin: 0;
 }
 
@@ -4886,7 +4891,8 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 
 #header {
 	width: 100%;
-	margin-bottom: 0.7rem;
+	/* margin-bottom: 0.7rem; */
+	margin: 0;
 	position: relative;
 	float: left;
 	z-index: 1000;
@@ -4894,7 +4900,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 
 .headerContent {
 	text-align: center;
-	background: #d4dade;
+	background: #ffffff;
 }
 
 .headerContent:before {
@@ -4981,7 +4987,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 .CartProduct {
 	display: block !important;
 	width: 300px;
-	background: #d4dade;
+	background: #ffffff;
 	float: left;
 	border: 1px solid #e5e5e5;
 	padding: 5px;
@@ -5337,7 +5343,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 
 
 .search {
-	background-color: #fff;
+	background-color: #D4DADE;
 	position: relative;
 	width: 100%;
 	max-width: 720px;
@@ -5379,7 +5385,6 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 .search-box {
 	position: relative;
 	width: 100%;
-	max-width: 360px;
 	height: 60px;
 	border-radius: 120px;
 	margin: 0 auto;
@@ -5493,8 +5498,8 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	width: 100%;
 	height: 100%;
 	border-radius: 120px;
-	border: none;
-	background: rgb(255, 255, 255);
+	border: 1px solid #D4DADE;
+	background: #FFFFFF;
 	padding: 0 68px 0 68px;
 	color: #000;
 	font-size: 1.32em;
@@ -5627,7 +5632,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	top: 100%;
 	left: 0;
 	right: 0;
-	background: #d4dade;
+	background: #ffffff;
 	display: none;
 	text-align: left;
 	display: none;
@@ -5762,7 +5767,7 @@ a#ucSepetim_btnSepetiTemizle {
 }
 
 .siparisTakipSayfasi {
-	background: #d4dade;
+	background: #ffffff;
 }
 
 .siparisTakipSayfasi .siparisTakipBaslik {
@@ -6142,7 +6147,7 @@ body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li>a:hover,
 }
 
 body .alisverisedevamet {
-	background: #d4dade;
+	background: #ffffff;
 }
 
 
@@ -6169,7 +6174,7 @@ body .adresGir .yesilButon {
 
 .owl-carousel .owl-nav .ProductListprev,
 .owl-carousel .owl-nav .ProductListnext {
-	background: #d4dade;
+	background: #ffffff;
 }
 
 .owl-carousel .owl-nav .ProductListprev:before,
@@ -6197,7 +6202,7 @@ body .adresGir .yesilButon {
 /*anaslider*/
 
 #pnlSlider .flex-control-paging li a {
-	background: #d4dade;
+	background: #ffffff;
 }
 
 #pnlSlider .flex-direction-nav .flex-prev,
@@ -6285,7 +6290,7 @@ body .adresGir .yesilButon {
 
 #txtbxurunSiparisAdedi,
 #divAdetCombo select {
-	background: #d4dade;
+	background: #ffffff;
 	color: #000000;
 	border: 1px solid #d7d7d7;
 }
@@ -6302,7 +6307,7 @@ body .adresGir .yesilButon {
 }
 
 .buyfast input:hover {
-	background: #d4dade;
+	background: #ffffff;
 	color: #000;
 	border-color: #000;
 }
@@ -6355,7 +6360,7 @@ body .adresGir .yesilButon:hover {
 /*siteicerik*/
 
 #header {
-	background: #d4dade;
+	background: #ffffff;
 	transition: left .3s ease-in-out;
 }
 
@@ -6789,7 +6794,7 @@ body .adresGir .yesilButon:hover {
 	float: left;
 	width: 100%;
 	position: relative;
-	background: #d4dade;
+	background: #ffffff;
 	text-align: center;
 }
 
@@ -6827,7 +6832,7 @@ body .adresGir .yesilButon:hover {
 .footerLogo a {
 	display: inline-block;
 	vertical-align: top;
-	background: #d4dade;
+	background: #ffffff;
 	padding: 0 5vw;
 	position: relative;
 	z-index: 1;
@@ -6938,7 +6943,7 @@ body .adresGir .yesilButon:hover {
 	height: 40px;
 	font-size: 12px;
 	padding: 0 40px 0 10px;
-	background: #d4dade;
+	background: #ffffff;
 	border: none;
 	border-radius: 0;
 	display: inline-block;
@@ -7313,7 +7318,7 @@ section.ResimGaleri .Main .Marquee-tag:hover:after {
 }
 
 .AddGalleryModal .modal-content {
-	background: #d4dade;
+	background: #ffffff;
 }
 
 .AddGalleryModal .Gallery--Wrapper .BtnBox {
@@ -7697,7 +7702,7 @@ body.transform #formGlobal {
 	bottom: 0;
 	width: 360px;
 	z-index: 99999;
-	background: #d4dade;
+	background: #ffffff;
 	transform: translateX(-360px);
 	transition: transform .3s ease-in-out;
 }
@@ -7775,7 +7780,7 @@ body.transform #formGlobal {
 	top: 121px;
 	bottom: 0;
 	width: 360px;
-	background: #d4dade;
+	background: #ffffff;
 	z-index: 3;
 	transition: all .3s ease-in-out;
 	overflow-y: auto;
@@ -8310,7 +8315,7 @@ ul.breadcrumb {
 		width: 50%;
 		float: left;
 		line-height: 40px;
-		background: #d4dade;
+		background: #ffffff;
 		font-size: 14px;
 		display: inline-block;
 		vertical-align: top;
@@ -8340,7 +8345,7 @@ ul.breadcrumb {
 		top: 0;
 		z-index: 99;
 		width: 50%;
-		background: #d4dade;
+		background: #ffffff;
 		border: none;
 		border-right: 1px solid #e3e3e3;
 		left: 0;
@@ -8382,7 +8387,7 @@ ul.breadcrumb {
 		right: 0;
 		z-index: 10;
 		border-bottom: none;
-		background: #d4dade;
+		background: #ffffff;
 		border: 1px solid #e5e5e5;
 	}
 	body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent {
@@ -8487,7 +8492,7 @@ ul.breadcrumb {
 		color: #262324;
 		text-align: left;
 		padding: 0 0 0 15px;
-		background: #d4dade;
+		background: #ffffff;
 	}
 	body .category-vertical-filters.top-filters .tukgo .filterOrderInStock:before {
 		content: '';
@@ -8501,7 +8506,7 @@ ul.breadcrumb {
 		border-radius: 100%;
 		background: #c5c7c9;
 		margin: auto 0;
-		background: #d4dade;
+		background: #ffffff;
 		box-shadow: 0 0 2px 0 #999;
 		z-index: 1;
 		transition: all 0.3s ease;
@@ -8530,7 +8535,7 @@ ul.breadcrumb {
 		padding: 0;
 		margin: 0;
 		border: none;
-		background: #d4dade;
+		background: #ffffff;
 		float: left;
 		width: 100%;
 	}
@@ -8900,7 +8905,7 @@ ul.breadcrumb {
 		left: 0;
 		right: 0;
 		z-index: 1002;
-		background: #d4dade;
+		background: #ffffff;
 		border-top: 1px solid #cecece;
 	}
 	.bottomHead ul {
@@ -9142,7 +9147,7 @@ ul.breadcrumb {
 		height: 40px;
 		border-radius: 100%;
 		text-align: center;
-		background: #d4dade;
+		background: #ffffff;
 		color: #000;
 		font-size: 20px;
 	}
@@ -9362,7 +9367,7 @@ ul.breadcrumb {
 		top: 10px;
 		left: 10px;
 		width: 35px;
-		background: #d4dade;
+		background: #ffffff;
 		text-align: center;
 		font-size: 0 !important;
 		font-family: 'FontAwesome';

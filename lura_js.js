@@ -28,7 +28,7 @@ $(document).ready(function() {
       '</svg>' +
 
       '</div>' +
-      '<input name="ct100$txtbxArama" type="text" id="txtbxArama" tabindex="-1" onkeypress="return ProductSeachTopOnKeyPress(event)" inputmode="search" placeholder="Ara..." autocomplete="off">' +
+      '<input name="ct100$txtbxArama" type="text" id="txtbxArama" style="color: #000;" tabindex="-1" onkeypress="return ProductSeachTopOnKeyPress(event)" inputmode="search" placeholder="Ara..." autocomplete="off">' +
       '<input type="button" name="" onclick="ProductSearchTop()" id="btnKelimeAra" class="rsbButton" value="Ara" title="Ara">' +
       '<svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;" xml:space="preserve">' +
         '<path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"/>' +
