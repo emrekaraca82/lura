@@ -18,6 +18,8 @@ var urunDetay_varyasyonSecili = true;
 
 $(document).ready(function() {
 
+  $('title').text('Lura');
+
 
   $('#divArama').html(
     '<div class="search-box">' +

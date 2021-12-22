@@ -5616,6 +5616,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	left: 0;
 	right: 0;
 	top: calc(100% - 20px);
+	width: 100%;
 	height: 20px;
 	display: none;
 }
@@ -5637,7 +5638,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	text-align: left;
 	display: none;
 	padding: 31px;
-	border-top: 1px solid #e5e5e5;
+	border: none;
 }
 
 .navigation .navUl>li:hover>.Flexscroll {
@@ -5674,7 +5675,8 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 
 .navigation .navUl>li .Flexscroll>ul>li>ul {
 	float: left;
-	width: calc(100% - 20px);
+	width: 100%;
+	/* width: calc(100% - 20px); */
 	overflow-y: auto;
 	overflow-x: hidden;
 	max-height: 180px;
