@@ -18,9 +18,10 @@ var urunDetay_varyasyonSecili = true;
 
 $(document).ready(function() {
 
+  // Site title | Semih SAHIN - FERISOFT
   $('title').text('Lura');
 
-
+  // Searchbox | Semih SAHIN - FERISOFT
   $('#divArama').html(
     '<div class="search-box">' +
       '<div class="search-icon">' +
@@ -40,19 +41,15 @@ $(document).ready(function() {
     '</div>'
   );
 
-  // console.log("divTopProductSearch html: " + $('#divTopProductSearch').html());
-  //$('#divTopProductSearch').text()
-  
+  // For the searchbox to appear first | Semih SAHIN - FERISOFT
   $('.headerContent').prepend("<div id='divTopProductSearch' style='margin-top: 2rem'>" + $('#divTopProductSearch').html() + "</div>");
 
+  // Removed those related to the previous searchbox | Semih SAHIN - FERISOFT
   $('.searchContent').remove();
   $('.arabtn').remove();
-
   $('#btnKelimeAra').hide();
-  // $('.arabtn').setAttribute("id", "search_btn_id");
-  // $('#divTopProductSearch').addClass('searchContent');
-  // $('#divTopProductSearch').hide();
 
+  // New searchbox attrs | Semih SAHIN - FERISOFT
   $("#txtbxArama").focus(function() {
     $(".search-box").addClass("border-searching");
     $(".search-icon").addClass("si-rotate");
@@ -74,7 +71,7 @@ $(document).ready(function() {
   });
 
 
-  // Footer end area
+  // // Footer end area | Semih SAHIN - FERISOFT
   // $('#divTicimaxCopyrightContent').html(
   //   '<div id="divTicimaxCopyrightContent" align="center">' +
   //     '<a class="mobilTicimaxLogo" href="https://ferisoft.com/" title="Ferisoft" target="_blank"></a>' +
@@ -84,7 +81,7 @@ $(document).ready(function() {
   //   '</div>'
   // );
 
-  // Category title text ali
+  // Category title text align | Semih SAHIN - FERISOFT
   $('.iletisimLeft .iletisimLeftFirmaAdi').attr('style', 'text-align: center;');
   $('.iletisimLeft .iletisimLeftAdres').attr('style', 'text-align: center;');
   $('.iletisimLeft .iletisimLeftTelefon').attr('style', 'text-align: center;');
