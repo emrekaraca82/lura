@@ -4926,7 +4926,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	vertical-align: top;
 	float: left;
 	max-width: 120px;
-	margin: 2rem 0 0 0;
+	margin: -2rem 0 0 0;
 }
 
 #logo .logo {
@@ -4952,6 +4952,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	float: right;
 	z-index: 99;
 	position: relative;
+	margin: -2rem 0 0 0;
 }
 
 .mycart>a {
@@ -5449,7 +5450,8 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	height: 40px;
 }
 
-/* #txtbxArama {
+/*
+#txtbxArama {
 	float: left;
 	width: 100%;
 	height: 35px;
@@ -5469,6 +5471,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	-moz-appearance: none;
 	-webkit-appearance: none;
 }
+*/
 
 #txtbxArama::-webkit-input-placeholder {
 	color: #000000;
@@ -5488,7 +5491,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 
 #txtbxArama:focus {
 	color: #000000;
-} */
+}
 
 #txtbxArama {
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -5507,12 +5510,12 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	letter-spacing: -0.015em;
 	outline: none;
 }
-#txtbxArama::-webkit-input-placeholder {color: #FFFFFF;}
-#txtbxArama::-moz-placeholder {color: #FFFFFF;}
-#txtbxArama:-ms-input-placeholder {color: #FFFFFF;}
-#txtbxArama:-moz-placeholder {color: #FFFFFF;}
-#txtbxArama::-moz-selection {color: #FFFFFF; background: rgba(0,0,0,0.25);}
-#txtbxArama::selection {color: #FFFFFF; background: rgba(0,0,0,0.25);}
+#txtbxArama::-webkit-input-placeholder {color: #000;}
+#txtbxArama::-moz-placeholder {color: #000;}
+#txtbxArama:-ms-input-placeholder {color: #000;}
+#txtbxArama:-moz-placeholder {color: #000;}
+#txtbxArama::-moz-selection {color: #000; background: rgba(0,0,0,0.25);}
+#txtbxArama::selection {color: #000; background: rgba(0,0,0,0.25);}
 
 #btnKelimeAra {
 	width: 55px;
@@ -6585,7 +6588,7 @@ body .adresGir .yesilButon:hover {
 }
 
 .mycart {
-	margin: 25px 0 0 20px;
+	margin: -2rem 0 0 20px;
 	position: relative;
 }
 
