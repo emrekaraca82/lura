@@ -5937,6 +5937,17 @@ body {
 	background: #FFF;
 }
 
+.ticiFooterCenter, .ticiFooterBottom {
+	background-color: #fff !important;
+	color: #000 !important;
+}
+
+.ticiFooterCenter .ticiContainer .footerRow .footerCol h3,
+.ticiFooterCenter .ticiContainer .footerRow .footerCol h2,
+.ticiFooterCenter .ticiContainer .footerRow .footerCol p,
+.ticiFooterCenter .ticiContainer .footerRow .footerCol ul li a {
+	color: #000 !important;
+}
 
 /*sepetvebutonrenk*/
 
@@ -8061,7 +8072,7 @@ ul.breadcrumb {
 
 @media screen and (min-width:1240px) and (max-width:1340px) {
 	/* ------------------------------------Container--------------------------------------------*/
-	.search,
+	/* .search, */
 	.headerContent,
 	body ul.breadcrumb,
 	.navigation>div,
@@ -8092,7 +8103,7 @@ ul.breadcrumb {
 
 @media screen and (min-width: 1160px) and (max-width: 1239px) {
 	/* ------------------------------------Container--------------------------------------------*/
-	.search,
+	/* .search, */
 	.headerContent,
 	body ul.breadcrumb,
 	.navigation>div,
@@ -8123,7 +8134,7 @@ ul.breadcrumb {
 
 @media screen and (min-width: 1025px) and (max-width: 1159px) {
 	/* ------------------------------------Container--------------------------------------------*/
-	.search,
+	/* .search, */
 	.headerContent,
 	body ul.breadcrumb,
 	.navigation>div,
@@ -8132,7 +8143,7 @@ ul.breadcrumb {
 	.sepetimBody .headerContent,
 	.sepetimBody #footer .ticiContainer,
 	.ticiContainer {
-		max-width: 960px;
+		max-width: 99%;
 	}
 	/* ------------------------------------Container--------------------------------------------*/
 	.sliderBannerContainer .ProductList {
@@ -8154,7 +8165,7 @@ ul.breadcrumb {
 
 @media (max-width: 1024px) {
 	/* ------------------------------------Container--------------------------------------------*/
-	.search,
+	/* .search, */
 	.headerContent,
 	body ul.breadcrumb,
 	.navigation>div,
