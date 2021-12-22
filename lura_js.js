@@ -40,11 +40,12 @@ $(document).ready(function() {
 
   // console.log("divTopProductSearch html: " + $('#divTopProductSearch').html());
   //$('#divTopProductSearch').text()
-  var tttttttest = "<div id='divTopProductSearch' style='margin-top: 2rem'>" + $('#divTopProductSearch').html() + "</div>";
-  $('.headerContent').prepend(tttttttest);
-
   
+  $('.headerContent').prepend("<div id='divTopProductSearch' style='margin-top: 2rem'>" + $('#divTopProductSearch').html() + "</div>");
+
+  $('.searchContent').remove();
   $('.arabtn').remove();
+
   $('#btnKelimeAra').hide();
   // $('.arabtn').setAttribute("id", "search_btn_id");
   // $('#divTopProductSearch').addClass('searchContent');

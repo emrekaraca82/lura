@@ -4925,12 +4925,12 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	display: inline-block;
 	vertical-align: top;
 	float: left;
-	max-width: 120px;
+	max-width: 150px;
 	margin: -2rem 0 0 0;
 }
 
 #logo .logo {
-	height: 80px;
+	height: 100px;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -5566,7 +5566,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 .navigation {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 8px;
+	margin: 0.7rem 7rem 0 0;
 }
 
 .navigation>div {
@@ -5595,6 +5595,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	font-weight: normal;
 	position: relative;
 	padding: 0 20px;
+	font-weight: 600;
 }
 
 .navigation .navUl>li>a:after {
@@ -6072,7 +6073,7 @@ body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li>a:hover,
 #divUrunEkSecenek .eksecenekLine.kutuluvaryasyon .right_line .size_box:hover,
 .ProductIcon>div:hover .box1,
 .navigation .navUl>li:hover>a:after {
-	background: #f04873;
+	background: #44647F;
 }
 
 
