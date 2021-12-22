@@ -25,11 +25,6 @@
 	box-sizing: border-box;
 }
 
-::placeholder {
-	color: #D4DADE;
-	opacity: 0.8; /* Firefox */
-}
-
 
 /*Fadein Css*/
 
@@ -67,7 +62,7 @@
 		}
 	}
 	body {
-		background-color: #D4DADE;
+		background-color: #ffffff;
 		-webkit-animation: fadein 500ms ease-in-out .5s both;
 		animation: fadein 500ms ease-in-out .5s both;
 	}
@@ -5344,7 +5339,8 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 
 
 .search {
-	background-color: #D4DADE;
+	/* background-color: #D4DADE; */
+	background-color: #FFFFFF;
 	position: relative;
 	width: 100%;
 	max-width: 720px;
@@ -5937,7 +5933,8 @@ body .kombinContent ul::-webkit-scrollbar-thumb,
 /*------------------------------------Sabit Renkler--------------------------------------------*/
 
 body {
-	background: #D4DADE;
+	/* background: #D4DADE; */
+	background: #FFF;
 }
 
 
