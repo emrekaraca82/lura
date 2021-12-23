@@ -5693,7 +5693,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 .navigation .navUl>li>.Flexscroll {
 	overflow-y: auto;
 	overflow-x: hidden;
-	max-height: 475px;
+	height: 475px;
 	position: absolute;
 	top: 100%;
 	left: 0;
