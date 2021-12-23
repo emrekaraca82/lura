@@ -22,6 +22,8 @@ $(document).ready(function() {
   $('title').text('Lura');
   $('body').prepend('<div id="mist_div"></div>');
 
+  $('.Flexscroll').addClass('fade-in-ferisoft');
+
   $('.ulVar').hover(function () {
     // Site mist | Semih SAHIN - FERISOFT
     $('#mist_div').toggleClass('mist_div');

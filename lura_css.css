@@ -1,13 +1,6 @@
-/* ==================== */
-
-
-/* ------FE6--SC------- */
-
-
-/* ==================== */
-
-
-/***/
+/*
+	LURA | FERISOFT | Semih SAHIN
+*/
 
 * {
 	margin: 0;
@@ -29,6 +22,64 @@
 /*Fadein Css*/
 
 @media(min-width:768px) {
+
+	/* FADE IN | FERISOFT | SEMIH SAHIN */
+
+	.fade-in-ferisoft {
+		animation: fade_in_ferisoft ease 1s;
+		-webkit-animation: fade_in_ferisoft ease 1s;
+		-moz-animation: fade_in_ferisoft ease 1s;
+		-o-animation: fade_in_ferisoft ease 1s;
+		-ms-animation: fade_in_ferisoft ease 1s;
+	}
+
+	@keyframes fade_in_ferisoft{
+		0% {
+			opacity:0;
+		}
+		100% {
+			opacity:1;
+		}
+	}
+		
+	@-moz-keyframes fade_in_ferisoft {
+		0% {
+			opacity:0;
+		}
+		100% {
+			opacity:1;
+		}
+	}
+		
+	@-webkit-keyframes fade_in_ferisoft {
+		0% {
+			opacity:0;
+		}
+		100% {
+			opacity:1;
+		}
+	}
+		
+	@-o-keyframes fade_in_ferisoft {
+		0% {
+			opacity:0;
+		}
+		100% {
+			opacity:1;
+		}
+	}
+		
+	@-ms-keyframes fade_in_ferisoft {
+		0% {
+			opacity:0;
+		}
+		100% {
+			opacity:1;
+		}
+	}
+
+	/* FADE IN END | FERISOFT | SEMIH SAHIN */
+
 	@keyframes fadein {
 		from {
 			opacity: 0;
@@ -5634,7 +5685,7 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	bottom: 0; 
 	left: 0; 
 	right: 0;
-	background: rgba(0, 0, 0, 0.377)!important;
+	background: rgba(0, 0, 0, 0.514)!important;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 }
@@ -5658,6 +5709,9 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 
 .navigation .navUl>li:hover>.Flexscroll {
 	display: block;
+
+	width: 111%;
+	margin: 0 -93px 0 -94px;
 }
 
 .navigation .navUl>li .Flexscroll>ul {
