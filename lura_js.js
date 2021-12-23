@@ -20,6 +20,12 @@ $(document).ready(function() {
 
   // Site title | Semih SAHIN - FERISOFT
   $('title').text('Lura');
+  $('body').prepend('<div id="mist_div"></div>');
+
+  $('.ulVar').hover(function () {
+    // Site mist | Semih SAHIN - FERISOFT
+    $('#mist_div').toggleClass('mist_div');
+  });
 
   // Searchbox | Semih SAHIN - FERISOFT
   $('#divArama').html(
