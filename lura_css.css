@@ -431,6 +431,30 @@ textarea {
 			object-fit: contain;
 		}
 
+.product-text-title-area, .product-text-area {
+	display: block;
+	float: left;
+	width: 100%;
+}
+.product-text-title-area {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	min-height: 110px;
+	text-align: center;
+}
+.product-text-title-area h2 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 36px;
+}
+.product-text-area p {
+	margin: 10px 20px;
+	/* text-align: justify; */
+	color: #fff;
+	font-weight: normal;
+	font-size: 24px;
+}
+
 
 /* CUSTOM DIVISIONS END */
 
