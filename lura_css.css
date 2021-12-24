@@ -368,6 +368,73 @@ textarea {
 /*reset Css*/
 
 
+
+/* CUSTOM DIVISIONS */
+
+.row-main {
+	margin: 0;
+	padding: 0 40px;
+	width: 100%;
+	float: left;
+}
+
+.col-main-6 {
+	width: calc(50% - 10px);
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.area-product-robot {
+	background-color: #676561;
+	margin-right: 5px;
+}
+	.area-product-robot-left {
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: 45%;
+	}
+	.area-product-robot-right {
+		float: right;
+		margin: 0;
+		padding: 0;
+		width: 55%;
+	}
+		.area-product-robot-right img {
+			/* min-height: 720px; */
+			display: block;
+			float: right;
+			object-fit: contain;
+		}
+
+.area-product-supurge {
+	background-color: #b59a6c;
+	margin-left: 5px;
+}
+	.area-product-supurge-left {
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: 45%;
+	}
+	.area-product-supurge-right {
+		float: right;
+		margin: 0;
+		padding: 0;
+		width: 55%;
+	}
+		.area-product-supurge-right img {
+			/* min-height: 720px; */
+			display: block;
+			float: right;
+			object-fit: contain;
+		}
+
+
+/* CUSTOM DIVISIONS END */
+
+
 /*colgrid*/
 
 .pull-center {
@@ -5709,9 +5776,10 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 
 .navigation .navUl>li:hover>.Flexscroll {
 	display: block;
-
-	width: 111%;
-	margin: 0 -93px 0 -94px;
+	
+	/* Products dropdown menu size (disabled) */
+	/* width: 111%;
+	margin: 0 -93px 0 -94px; */
 }
 
 .navigation .navUl>li .Flexscroll>ul {
