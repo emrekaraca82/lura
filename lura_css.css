@@ -6209,7 +6209,7 @@ body .kombinContent ul::-webkit-scrollbar-thumb,
 .navigation .navUl>li>.Flexscroll>ul>li>ul::-webkit-scrollbar-thumb,
 .navigation .navUl>li>ul>li>ul>li>ul::-webkit-scrollbar-thumb,
 .navigation .navUl>li .Flexscroll::-webkit-scrollbar-thumb {
-	background: #f04873;
+	background: #152e59;
 }
 
 
@@ -6260,7 +6260,7 @@ body .category-vertical-filters.top-filters .FiltreUst,
 .urunOzellik .mobilTab>ul>li.active>a,
 .favNum,
 .tooltip-inner {
-	background: #f04873;
+	background: #152e59;
 }
 
 
@@ -6305,7 +6305,7 @@ body #divSayfalamaUst:not(.Slct) .brandlistselection .sortingContent li a.select
 }
 
 .Basketstep ul li:before {
-	border: 1px solid #f04873;
+	border: 1px solid #152e59;
 }
 
 
