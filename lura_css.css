@@ -376,6 +376,36 @@ textarea {
 	object-fit: contain;
 }
 
+.product-basket-button {
+	width: 100%;
+	float: left;
+}
+
+.product-basket-card-items {
+	display: block;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	font-weight: normal;
+	font-size: 18px;
+	margin-bottom: 0.75rem;
+}
+
+.product-basket-card-items-bold {
+	display: block;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 0.75rem;
+}
+
+.product-basket-button .basketBtn {
+	float: left;
+	margin: 0 0 0 12%;
+}
+
 .card {
 	position: relative;
 	width: 300px;
