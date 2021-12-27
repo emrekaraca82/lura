@@ -371,6 +371,11 @@ textarea {
 
 /* CUSTOM DIVISIONS */
 
+.product-basket-image {
+	width: 100%;
+	object-fit: contain;
+}
+
 .card {
 	position: relative;
 	width: 300px;
@@ -455,6 +460,13 @@ textarea {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	float: left;
+}
+
+.col-main-12 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	float: left;
 }
 
