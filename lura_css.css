@@ -382,8 +382,9 @@ textarea {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  }
-  .card .content {
+	margin: 0 auto;
+}
+.card .content {
 	position: absolute;
 	bottom: -160px;
 	width: 100%;
@@ -399,12 +400,12 @@ textarea {
 	border-radius: 15px;
 	transition: bottom 0.5s;
 	transition-delay: 0.65s;
-  }
-  .card:hover .content {
+}
+.card:hover .content {
 	bottom: 0;
 	transition-delay: 0s;
-  }
-  .card .content .contentBx h3 {
+}
+.card .content .contentBx h3 {
 	text-transform: uppercase;
 	color: #fff;
 	letter-spacing: 2px;
@@ -417,38 +418,38 @@ textarea {
 	transition-delay: 0.6s;
 	opacity: 0;
 	transform: translateY(-20px);
-  }
-  .card:hover .content .contentBx h3 {
+}
+.card:hover .content .contentBx h3 {
 	opacity: 1;
 	transform: translateY(0);
-  }
-  .card .content .contentBx h3 span {
+}
+.card .content .contentBx h3 span {
 	font-size: 12px;
 	font-weight: 300;
 	text-transform: initial;
-  }
-  .card .content .sci {
+}
+.card .content .sci {
 	position: relative;
 	bottom: 10px;
 	display: flex;
-  }
-  .card .content .sci li {
+}
+.card .content .sci li {
 	list-style: none;
 	margin: 0 10px;
 	transform: translateY(40px);
 	transition: 0.5s;
 	opacity: 0;
 	transition-delay: calc(0.2s * var(--i));
-  }
+}
   
-  .card:hover .content .sci li {
+.card:hover .content .sci li {
 	transform: translateY(0);
 	opacity: 1;
-  }
-  .card .content .sci li a {
+}
+.card .content .sci li a {
 	color: white;
 	font-size: 24px;
-  }
+}
 
 .row-main {
 	margin: 0;
