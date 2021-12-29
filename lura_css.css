@@ -371,6 +371,35 @@ textarea {
 
 /* CUSTOM DIVISIONS */
 
+/*navbar*/
+
+#navbar-like-fakir {
+	display: block;
+	position: absolute;
+	right: 4.5rem;
+	top: 1.5rem;
+	z-index: 999999999;
+}
+
+#navbar-like-fakir ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+  
+#navbar-like-fakir li {
+	float: left;
+	padding: 0 10px;
+}
+  
+#navbar-like-fakir li a {
+	display: block;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+}
+
 .product-basket-image {
 	width: 100%;
 	object-fit: contain;

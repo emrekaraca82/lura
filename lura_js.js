@@ -22,6 +22,18 @@ $(document).ready(function() {
   $('title').text('Lura');
   $('body').prepend('<div id="mist_div"></div>');
 
+  // homepage navbar in top the basket
+  $('#header').prepend(
+    '<div id="navbar-like-fakir">' +
+      '<ul>' +
+        '<li><a href="#">Sipariş Takip</a></li>' +
+        '<li><a href="#">Destek</a></li>' +
+        '<li><a href="#">Kurumsal</a></li>' +
+        '<li><a href="#">Deneyim</a></li>' +
+      '</ul>' +
+    '</div>'
+  );
+
   // Flexscroll div fade in (drop-down menu)
   $('.Flexscroll').addClass('fade-in-ferisoft');
 
