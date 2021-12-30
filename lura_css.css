@@ -381,6 +381,26 @@ textarea {
 	z-index: 999999999;
 }
 
+@media screen and (min-width:1041px) and (max-width:1400px) {
+	#navbar-like-fakir {
+		display: block;
+		position: absolute;
+		right: 1rem;
+		top: 0.6rem;
+		z-index: 999999999;
+	}
+}
+
+@media screen and (min-width:1401px) and (max-width:1560px) {
+	#navbar-like-fakir {
+		display: block;
+		position: absolute;
+		right: 1.5rem;
+		top: 1.5rem;
+		z-index: 999999999;
+	}
+}
+
 #navbar-like-fakir ul {
 	list-style-type: none;
 	margin: 0;
