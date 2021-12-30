@@ -37,7 +37,8 @@ $(document).ready(function() {
   // Flexscroll div fade in (drop-down menu)
   $('.Flexscroll').addClass('fade-in-ferisoft');
 
-  $('.Flexscroll').append('<img src="https://lura.ticimaxeticaret.com/Uploads/UrunResimleri/buyuk/lura-temizlik-robotu-f-488f.jpg" style="height: 350px; float: right;">');
+  // Flexscroll image removed
+  // $('.Flexscroll').append('<img src="https://lura.ticimaxeticaret.com/Uploads/UrunResimleri/buyuk/lura-temizlik-robotu-f-488f.jpg" style="height: 350px; float: right;">');
 
   // Drop-down menu link icon ---------------------------------------------------------------------------
   var dropdownSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">' +

@@ -5966,11 +5966,12 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 .navigation .navUl>li>.Flexscroll {
 	overflow-y: auto;
 	overflow-x: hidden;
-	height: 475px;
+	/* height: 475px; */
 	position: absolute;
 	top: 100%;
-	left: 0;
-	right: 0;
+	width: 250px;
+	/* left: 0;
+	right: 0; */
 	background: #ffffff;
 	display: none;
 	text-align: left;
@@ -5988,12 +5989,12 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 	margin: 0 -93px 0 -94px; */
 }
 
-.navigation .navUl>li .Flexscroll>ul {
+/* .navigation .navUl>li .Flexscroll>ul {
 	flex: 5;
 	-webkit-column-count: 4;
 	-moz-column-count: 4;
 	column-count: 4;
-}
+} */
 
 .navigation .navUl>li .Flexscroll>ul li a {
 	color: #000000;
@@ -6003,27 +6004,31 @@ body .productItem .divVideoPlayButton a.urunListeVideoPlay i.fa-pause-circle-o:b
 
 .navigation .navUl>li .Flexscroll>ul>li {
 	margin-bottom: 10px;
+}
+
+/* .navigation .navUl>li .Flexscroll>ul>li {
+	margin-bottom: 10px;
 	display: flex;
 	align-items: flex-start;
 	flex-direction: column;
 	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
 	break-inside: avoid;
-}
+} */
 
 .navigation .navUl>li .Flexscroll>ul>li>a {
 	font-size: 14px;
 	font-weight: 600;
 }
 
-.navigation .navUl>li .Flexscroll>ul>li>ul {
+/* .navigation .navUl>li .Flexscroll>ul>li>ul {
 	float: left;
-	width: 100%;
+	width: 100%; */
 	/* width: calc(100% - 20px); */
-	overflow-y: auto;
+	/* overflow-y: auto;
 	overflow-x: hidden;
 	max-height: 180px;
-}
+} */
 
 
 /* ------------------------------------Resimli Yan Menu--------------------------------------------*/
