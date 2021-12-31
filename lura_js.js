@@ -26,10 +26,10 @@ $(document).ready(function() {
   $('#header').prepend(
     '<div id="navbar-like-fakir">' +
       '<ul>' +
-        '<li><a href="#">Sipariş Takip</a></li>' +
-        '<li><a href="#">Destek</a></li>' +
-        '<li><a href="#">Kurumsal</a></li>' +
-        '<li><a href="#">Deneyim</a></li>' +
+        '<li><a href="/siparis-takip">Sipariş Takip</a></li>' +
+        '<li><a href="/destek">Destek</a></li>' +
+        '<li><a href="/kurumsal">Kurumsal</a></li>' +
+        '<li><a href="/deneyim">Deneyim</a></li>' +
       '</ul>' +
     '</div>'
   );
